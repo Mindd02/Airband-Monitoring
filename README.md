@@ -3,6 +3,8 @@
 
 Repositori ini berisi *flowgraph* GNU Radio Companion (GRC) yang dirancang khusus untuk memonitor dan mendemodulasi komunikasi suara AM pada pita frekuensi penerbangan (*Aviation Band*, 118 MHz - 137 MHz). Proyek ini dapat digunakan untuk mendengarkan saluran komunikasi penerbangan lokal, seperti *Approach Control* atau siaran ATIS (Automatic Terminal Information Service).
 
+![Flowgraph GNU Radio Companion](gnuRadioAirband.png)
+
 ## 🚀 Fitur Utama
 *   **Demodulasi AM Real-time:** Menerima sinyal dari RTL-SDR, memfilternya, dan melakukan demodulasi AM (*Amplitude Modulation*) secara langsung.
 *   **Antarmuka Interaktif (QT GUI):** Dilengkapi dengan *slider* untuk menyesuaikan Frekuensi (118 MHz - 137 MHz), RF Gain (0 - 50 dB), dan Volume keluaran audio.
