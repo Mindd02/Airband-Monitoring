@@ -21,11 +21,3 @@ Untuk menjalankan *flowgraph* ini, pastikan sistem Anda memiliki perangkat keras
 3.  Buka file `.grc` yang ada di dalam repositori ini.
 4.  Klik tombol **Execute the flow graph** (ikon *play* berwarna hijau) di bilah alat atas.
 5.  Gunakan antarmuka QT GUI yang muncul untuk menyesuaikan frekuensi ke saluran penerbangan yang ingin didengar.
-
-## 📝 Catatan Penting & Tips Tuning
-*   **Pengaturan RF Gain:** Berdasarkan hasil pengujian teknis pada antarmuka, pengaturan RF Gain yang paling optimal untuk menangkap sinyal dengan jelas umumnya berada pada kisaran **14 dB hingga 17 dB**. Terlalu tinggi dapat menyebabkan *noise*, terlalu rendah akan membuat sinyal tidak terdengar.
-*   **Intermodulasi Frekuensi FM:** Saat melakukan *scanning* di area tertentu (misalnya pemantauan spektrum di wilayah Palembang atau perkotaan lainnya), harap berhati-hati saat memonitor frekuensi di sekitar **120 MHz**. Sinyal kuat yang muncul di titik tersebut seringkali merupakan hasil dari intermodulasi frekuensi siaran FM lokal, bukan transmisi komunikasi pesawat standar.
-*   **Audio Output:** Pastikan *Audio Sink* diatur ke *Sample Rate* yang sesuai dengan kartu suara perangkat Anda (pada *flowgraph* ini diatur pada 48 kHz).
-
-## 📄 Lisensi
-[Pilih lisensi Anda, misalnya: MIT License]
