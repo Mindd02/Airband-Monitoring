@@ -1,7 +1,7 @@
 # Airband-Monitoring
 # RTL-SDR Aviation Band AM Receiver
 
-Repositori ini berisi *flowgraph* GNU Radio Companion (GRC) yang dirancang khusus untuk memonitor dan mendemodulasi komunikasi suara AM pada pita frekuensi penerbangan (*Aviation Band*, 118 MHz - 137 MHz). Proyek ini dapat digunakan untuk mendengarkan saluran komunikasi penerbangan lokal, seperti *Approach Control* atau siaran ATIS (Automatic Terminal Information Service).
+*flowgraph* GNU Radio Companion (GRC) yang dirancang khusus untuk memonitor dan mendemodulasi komunikasi suara AM pada pita frekuensi penerbangan (*Aviation Band*, 118 MHz - 137 MHz). Proyek ini dapat digunakan untuk mendengarkan saluran komunikasi penerbangan lokal, seperti *Approach Control* atau siaran ATIS (Automatic Terminal Information Service).
 
 ![Flowgraph GNU Radio Companion](gnuRadioAirband.png)
 
